@@ -1,0 +1,24 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "/usr/local/bin/node ${file}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kerolol/adventofcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kerolol/adventofcode/issues"
+  },
+  "homepage": "https://github.com/kerolol/adventofcode#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
