@@ -3,7 +3,7 @@ import input from './input';
 const numbersFormatted = input.split('\n').map(Number);
 
 const getArrayPairToEqualSum = (array: Array<number>, size: number, sum: number) => {
-  array = [].slice.call(array).sort((a: number, b: number) => a - b);
+  array = array.sort((a: number, b: number) => a - b);
   
   let lp = 0;
   let rp = size - 1;
